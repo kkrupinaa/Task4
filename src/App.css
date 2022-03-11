@@ -4,3 +4,23 @@ body,
     height: 100%;
     margin: 0;
 }
+.grid-container{
+    height: 400px;
+    width: 700px;
+    display: grid;
+    gap:20px;
+    grid-template-columns: 340px 340px;
+    grid-template-rows: 80px 200px 80px;
+}
+div{
+    height:80px;
+    width: 340px;
+    background-color:#DAA520;
+    border-radius: 0px solid #DAA520;
+}
+div:nth-child(3){
+    height: 200px;
+}
+div:nth-child(4){
+    height: 200px;
+}
